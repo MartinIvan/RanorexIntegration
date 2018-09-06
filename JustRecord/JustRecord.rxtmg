@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="JustRecord"
+      id="d22e347d-d558-4f01-916d-26527b4e3403"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="JustRecord"
+      id="d22e347d-d558-4f01-916d-26527b4e3403"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

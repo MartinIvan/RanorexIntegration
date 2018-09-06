@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c5e2f5eb-d637-4f39-871c-d91135157f85"
+mode="Desktop"
+rxversion="8.2">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="JustRecord">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="3b60ce08-f582-4ada-87c2-72f305e70371"
+	name="JustRecordRepository"
+	relativepath="JustRecordRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="JustRecordRepository"
+		namespace="JustRecord">
+		</codegen>
+		<rootfolder
+		id="1bfca9a0-eeae-4e4b-a522-e2c1eb3b628b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

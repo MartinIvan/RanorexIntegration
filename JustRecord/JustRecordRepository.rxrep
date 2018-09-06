@@ -1,0 +1,651 @@
+﻿<repository
+id="3b60ce08-f582-4ada-87c2-72f305e70371"
+name="JustRecordRepository"
+rxversion="8.2">
+	<codegen
+	classname="JustRecordRepository"
+	namespace="JustRecord">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1bfca9a0-eeae-4e4b-a522-e2c1eb3b628b"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d093b2e7-4e76-4907-b0ee-9230be9db716"
+		isrooted="True"
+		name="Информация"
+		refpath="/form[@title='Информация']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="45349417-9fd4-443e-8982-fb83eb077132"
+			name="ButtonОК"
+			refimgid="0b375820-c613-46a3-bdb6-f67cebcc2920"
+			refpath="/form[@title='Информация']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='О&amp;К']"
+			searchtimeout="30000ms">
+				/form[@title='&#1048;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103;']/?/?/element[@instance='0']/button[@text='&#1054;&amp;&#1050;']
+			</item>
+			<basepath>
+				/form[@title='&#1048;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKoSURBVDhPfZPNS1RhFMbvPxFlfs3ojONMpUm1
+iVrULqFFEn3LhH0bIxKpo/ORk5ChDH2Cm4JIhCSwhS6KoJVJRpBCmVoy6Hhn9N77vu841frpnHu9
+Gxctzu7+nvO8z3muVnrSQtlpgYpzEpXNEp6wRNUlCd9VhZobNBGF2naF0O0CQl0FBLsUAlEFf7dC
+dUxCKzslUH7GEfCwwMVNgWsEt/5PQDoCDNrbLzjbvS0EX5HO9pv0cZtC8JbC7g5HoHarANt2rXtb
+BDwk0NRfQPjxBkIE17RJnBiUaH8h0BAjN1ESJ/u+HnLKAgyybd7McGNvAd9X/mI2U0T4icLRlMTM
+4hqW9Rw6Rgz4OqXzfhLwxgQ0fi9P8LrE+fSGDedFEUu6Qv+YROS5wNJKDsLKIptbRfeoiT1Jst8j
+4I2TAKcdordefrqBqfk/NrwmFD7MChy7p7CPtr37kodhrMIw88joBsIkyvY9LMBhHaRQRid/Qzcd
+eOKzwKc5Aw/HDQyMreProo7XU+v4lTWgpIUYOfPGKbsEC9CZOOnmRwrT8xLP3ks0UNqdwyYy2Sws
+M4sY2a5LKJwdEoiMSBxJO9sr2AHfmGcXnepwUqG+U+EApT3wxsDsTx0Ly3mkJyzsT1FwdLoqfjuF
+Vxm3UJ60oNkFcYduXR8t4D7Z/vgth+5XJiIvBSbnBPrHFfb2OZsZrkgKlNkCZNedIG1vHBSY/qEj
+SnBdQqKWwmodlng7U0TTkCKYrCeo/gSX3iEBrqY7XBI/3fn4A4EggT5uG1n2k9AhKlMgRbUnmIfh
+kpQJLUAQV5OHG2a3jEAXrtosjP1mF6btO3st7EgZ0LhV3Gseric3zAbJAYNb38ybGS65a2I7jVZN
+H/FPweNC3DAbpDvzqThtF2bbvJnhbX0G/gHvhLxNwnjIeAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="a19d02ab-875e-4b4a-90d5-3e22de78f373"
+		isrooted="True"
+		name="GeoTech3D7ГеологияМаркшейде"
+		refpath="/form[@name='MainForm' and @title='GeoTech-3D 7 |        Геология Маркшейдерия Технология       |']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="361fe127-8a7c-4b85-901c-5616fd7d713f"
+			name="Символ"
+			refimgid="de892f25-1432-41c2-a198-f448612360e6"
+			refpath="/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ Гео']/menubar[@name='MainMenu1']/menuitem[@name='SymbolItm']"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/?/?/menuitem[@name='SymbolItm']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="5f22cfdf-2745-4ad5-a0f8-b1779a8ae78c"
+			name="SomeElement"
+			refimgid="262a890a-cf8c-4491-bcf5-039384a4fb6a"
+			refpath="/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ Гео']/element[@name='LeftControlBar']/form[@title='Объекты']/element[1]"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/element[@name='LeftControlBar']/form[@title='&#1054;&#1073;&#1098;&#1077;&#1082;&#1090;&#1099;']/element[1]
+			</item>
+			<item
+			addcaps="tree,nativewindow,delphielement"
+			capname="tree"
+			id="4251c7a8-7677-4283-a419-36825100636b"
+			name="ObjInsp"
+			refimgid="7175dfe8-509f-4c3f-bb08-c127d4ea61a5"
+			refpath="/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ Гео']/container[@name='LeftDockPanel']/form/tabpagelist/container[@name='PropertyTab']/container[@name='PropPnlUp']/container[@name='ObjInspPnl']/tree[@name='ObjInsp']"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/container[@name='LeftDockPanel']/form[@name='OKBottomDlg']/?/?/container[@name='PropertyTab']//tree[@name='ObjInsp']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="9ab17bd3-7113-4afc-b3d6-fa294cbedfc2"
+			name="PropOkBtn"
+			refimgid="8864324b-fd89-454b-86f4-19496ca26876"
+			refpath="/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ Гео']/container[@name='LeftDockPanel']/form/tabpagelist/container[@name='PropertyTab']/container[@name='PropPnlDown']/element[@name='PropOkBtn']"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/container[@name='LeftDockPanel']/form[@name='OKBottomDlg']//element[@name='PropOkBtn']
+			</item>
+			<item
+			addcaps="form,nativewindow,delphielement"
+			capname="form"
+			id="bd1422ff-c184-445b-8cfd-8437af371d2c"
+			name="Form65280"
+			refimgid="d97b9a0c-3dc6-4cb4-abb5-9d06065c2504"
+			refpath="/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ Гео']/form[@name='MDIChild']"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/form[@name='MDIChild']
+			</item>
+			<item
+			addcaps="unknown,delphielement"
+			capname="unknown"
+			id="d8dc9298-936e-4e27-ba88-8fa253c53dbb"
+			name="SomeElement1"
+			refimgid="3ffbd34c-fdcc-4cbd-b1d0-095008e01f46"
+			refpath="/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ Гео']/element[@name='LeftControlBar']/form[@title='Редактирование']/element[5]"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/element[@name='LeftControlBar']/form[@title='&#1056;&#1077;&#1076;&#1072;&#1082;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;']/element[5]
+			</item>
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="7597c3ae-159b-4114-b811-f41459b37df8"
+			name="Действия"
+			refimgid="ef68d80d-a4f2-45c8-adeb-6a3fe57315f9"
+			refpath="/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ Гео']/menubar[@name='MainMenu1']/menuitem[@name='miMainActions']"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/?/?/menuitem[@name='miMainActions']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="13561c1e-17ab-4eb3-9bbd-c1ba6818ce17"
+			name="Закрыть"
+			refimgid="22ebaeac-f040-492a-814f-f064ef824327"
+			refpath="/form[@name='MainForm' and @title='GeoTech-3D 7 |        Геология Маркшейдерия Технология       |']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Закрыть']"
+			searchtimeout="30000ms">
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']/?/?/button[@accessiblename='&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/form[@name='MainForm' and @title~'^GeoTech-3D\ 7\ \|\ \ \ \ \ \ \ \ &#1043;&#1077;&#1086;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKgSURBVDhPbZJPTxNRFMX7JTQCpRRopy0ocQ1G
+E7cmbkwQDYIikoAQEOVPLQUWEt2YsHKhRkx04cbExBg3LiR+AhU1RhBKS5mZN/MKfoDzPHfaEU1c
+vE0753fOufdGGs75pqFbIdrjIdbrId7noWXAQ+s1H8lhH6lRH+lxjfQNjfYpjcyMRmqW//G13vYQ
+aez2TfS8i8YLHpoE0P8fwAQBkwcA6x9AjzYximMXCbhEwBUCBgkYqgKsMQH4yBDQRkB6mr9RnKC4
+NUdAU6824hyIL3torrmfXaogOcIEAUBj5JFC+zQBMyFAoUUA8X5tJHZVzB/p/vz9LxTdPZxZYt9x
+Dw/eOHCdEsZWHKRmPCSzjJ9lUgG0DPgmEF6lc01cUvvYURrfthQ653y4bomvQMgWRghJzvJbVmjO
+KUQSQxUjfRN8K+/2UQzEPsquixP5avfsMxvK3YRjb6NslzH4hIYExAVgDVeMDOvFhwPnjZKC49q4
+/8pBBzuv/Sjg688idine2bWxskp3ziA+R0BqrGIsrsq67qFgV527GPv0ohdE9un8ZaMIi91Hn3pY
+/axw9zXd51zEBJCZqJj0eHVVJ+c1OvPc9U2NY3T+vllg7CKWOUTZeyKrat25NcaP5QUwuWfkSII9
+U5i5pdHBj8X543oRp+4oxnaw/JZTrw1OujcyQcO8i8jR6T0jFyZH0sY9Z3goa+sFfKL4OIeY5Lr6
+HipslzVyL3XQu4kvmidggYDMLCswbvhSfEOPHSSCyFyX7JvOXfc8tC0yNsXiXk9A3YKDSJoAiyK5
+rvDG5VDCvmFs6SzOIo4yej3djwggmdVGDkMEgegvVxlWPOf+GZjEFuf6eYdiG4cFkMhpEzoFj6Jw
+UNJXIgdiukrnupqziA8tOvgN9oe3YaWqRygAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="4af80a55-f5f9-46f3-aa4c-76dfebf4ce51"
+		isrooted="True"
+		name="GeoTech"
+		refpath="/contextmenu[@processname='GeoTech']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="90597f32-768d-4c37-85ab-1324d0fd2166"
+			name="СоздатьCtrlPlusN"
+			refimgid="ca923eb7-6c21-4e31-8f9a-91d24ec9e1db"
+			refpath="/contextmenu[@processname='GeoTech']/contextmenu/menuitem[@accessiblename='Создать...Ctrl+N']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='GeoTech']/?/?/menuitem[@accessiblename='&#1057;&#1086;&#1079;&#1076;&#1072;&#1090;&#1100;...Ctrl+N']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="c5fb4ff3-aef3-4aeb-86fa-a2bbac0553ac"
+			name="ИмпортИзФайла"
+			refimgid="9caaf2a6-c7de-4df7-bc1d-5816c53151e1"
+			refpath="/contextmenu[@processname='GeoTech']/contextmenu/menuitem[@accessiblename='Импорт из файла']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='GeoTech']/?/?/menuitem[@accessiblename='&#1048;&#1084;&#1087;&#1086;&#1088;&#1090; &#1080;&#1079; &#1092;&#1072;&#1081;&#1083;&#1072;']
+			</item>
+			<basepath>
+				/contextmenu[@processname='GeoTech']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="51e964e6-9a19-4ac4-a386-e49f5df5a1d0"
+		isrooted="True"
+		name="GeoTech3D"
+		refpath="/form[@name='DualListDlg']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,delphielement"
+			capname="button"
+			id="c3ed079b-ebda-405b-ad78-ff98a18f479b"
+			name="SbtCreateProject"
+			refimgid="bc38f5c5-f0aa-4378-9a5b-c56db8b3a754"
+			refpath="/form[@name='DualListDlg']/button[@name='sbtCreateProject']"
+			searchtimeout="30000ms">
+				/form[@name='DualListDlg']/button[@name='sbtCreateProject']
+			</item>
+			<basepath>
+				/form[@name='DualListDlg']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKgSURBVDhPbZJPTxNRFMX7JTQCpRRopy0ocQ1G
+E7cmbkwQDYIikoAQEOVPLQUWEt2YsHKhRkx04cbExBg3LiR+AhU1RhBKS5mZN/MKfoDzPHfaEU1c
+vE0753fOufdGGs75pqFbIdrjIdbrId7noWXAQ+s1H8lhH6lRH+lxjfQNjfYpjcyMRmqW//G13vYQ
+aez2TfS8i8YLHpoE0P8fwAQBkwcA6x9AjzYximMXCbhEwBUCBgkYqgKsMQH4yBDQRkB6mr9RnKC4
+NUdAU6824hyIL3torrmfXaogOcIEAUBj5JFC+zQBMyFAoUUA8X5tJHZVzB/p/vz9LxTdPZxZYt9x
+Dw/eOHCdEsZWHKRmPCSzjJ9lUgG0DPgmEF6lc01cUvvYURrfthQ653y4bomvQMgWRghJzvJbVmjO
+KUQSQxUjfRN8K+/2UQzEPsquixP5avfsMxvK3YRjb6NslzH4hIYExAVgDVeMDOvFhwPnjZKC49q4
+/8pBBzuv/Sjg688idine2bWxskp3ziA+R0BqrGIsrsq67qFgV527GPv0ohdE9un8ZaMIi91Hn3pY
+/axw9zXd51zEBJCZqJj0eHVVJ+c1OvPc9U2NY3T+vllg7CKWOUTZeyKrat25NcaP5QUwuWfkSII9
+U5i5pdHBj8X543oRp+4oxnaw/JZTrw1OujcyQcO8i8jR6T0jFyZH0sY9Z3goa+sFfKL4OIeY5Lr6
+HipslzVyL3XQu4kvmidggYDMLCswbvhSfEOPHSSCyFyX7JvOXfc8tC0yNsXiXk9A3YKDSJoAiyK5
+rvDG5VDCvmFs6SzOIo4yej3djwggmdVGDkMEgegvVxlWPOf+GZjEFuf6eYdiG4cFkMhpEzoFj6Jw
+UNJXIgdiukrnupqziA8tOvgN9oe3YaWqRygAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="d410ddd6-cd35-47f2-aed0-d5812134c4b3"
+		isrooted="True"
+		name="GeoTech3D1"
+		refpath="/form[@name='NewNameProj']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="237a6f4b-25f1-47b6-8460-8baba1268bf6"
+			name="Применить"
+			refimgid="dd5139da-ff90-4b81-9c13-98afb67c90fa"
+			refpath="/form[@name='NewNameProj']/button[@name='btnApply']"
+			searchtimeout="30000ms">
+				/form[@name='NewNameProj']/button[@name='btnApply']
+			</item>
+			<basepath>
+				/form[@name='NewNameProj']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKgSURBVDhPbZJPTxNRFMX7JTQCpRRopy0ocQ1G
+E7cmbkwQDYIikoAQEOVPLQUWEt2YsHKhRkx04cbExBg3LiR+AhU1RhBKS5mZN/MKfoDzPHfaEU1c
+vE0753fOufdGGs75pqFbIdrjIdbrId7noWXAQ+s1H8lhH6lRH+lxjfQNjfYpjcyMRmqW//G13vYQ
+aez2TfS8i8YLHpoE0P8fwAQBkwcA6x9AjzYximMXCbhEwBUCBgkYqgKsMQH4yBDQRkB6mr9RnKC4
+NUdAU6824hyIL3torrmfXaogOcIEAUBj5JFC+zQBMyFAoUUA8X5tJHZVzB/p/vz9LxTdPZxZYt9x
+Dw/eOHCdEsZWHKRmPCSzjJ9lUgG0DPgmEF6lc01cUvvYURrfthQ653y4bomvQMgWRghJzvJbVmjO
+KUQSQxUjfRN8K+/2UQzEPsquixP5avfsMxvK3YRjb6NslzH4hIYExAVgDVeMDOvFhwPnjZKC49q4
+/8pBBzuv/Sjg688idine2bWxskp3ziA+R0BqrGIsrsq67qFgV527GPv0ohdE9un8ZaMIi91Hn3pY
+/axw9zXd51zEBJCZqJj0eHVVJ+c1OvPc9U2NY3T+vllg7CKWOUTZeyKrat25NcaP5QUwuWfkSII9
+U5i5pdHBj8X543oRp+4oxnaw/JZTrw1OujcyQcO8i8jR6T0jFyZH0sY9Z3goa+sFfKL4OIeY5Lr6
+HipslzVyL3XQu4kvmidggYDMLCswbvhSfEOPHSSCyFyX7JvOXfc8tC0yNsXiXk9A3YKDSJoAiyK5
+rvDG5VDCvmFs6SzOIo4yej3djwggmdVGDkMEgegvVxlWPOf+GZjEFuf6eYdiG4cFkMhpEzoFj6Jw
+UNJXIgdiukrnupqziA8tOvgN9oe3YaWqRygAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="53c32ea7-780e-46f7-89f5-f741cdacfaaa"
+		isrooted="True"
+		name="GEOTECH3D2"
+		refpath="/form[@name='GeoOptions']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="671912ae-7a90-481a-967d-f89ddbdba2c7"
+			name="Выполнить"
+			refimgid="aa05eb79-e0d3-43d8-94f7-b36daaba6f5c"
+			refpath="/form[@name='GeoOptions']/button[@name='OKBtn']"
+			searchtimeout="30000ms">
+				/form[@name='GeoOptions']/button[@name='OKBtn']
+			</item>
+			<folder
+			addcaps="tabpagelist,nativewindow,delphielement"
+			capname="tabpagelist"
+			id="74d32fb2-669d-4555-b90f-61af041f6d43"
+			isrooted="True"
+			name="TabbedNotebook1"
+			refpath="/form[@name='GeoOptions']/tabpagelist[@name='TabbedNotebook1']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="1baa70e9-5782-4474-8c1f-cbcafcd9400a"
+				name="XmaxEdit"
+				refimgid="b940f7ed-94a6-4987-802e-0197094504c7"
+				refpath="/form[@name='GeoOptions']/tabpagelist/element[@class='TTabPage' and @instance='0']/container/text[@name='XmaxEdit']"
+				searchtimeout="30000ms">
+					/form[@name='GeoOptions']/tabpagelist[@name='TabbedNotebook1']//text[@name='XmaxEdit']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="156cdbd3-8e9f-4c51-9f50-bae68bae7ca5"
+				name="XminEdit"
+				refimgid="496db025-056c-47a0-91cc-c9412ca14111"
+				refpath="/form[@name='GeoOptions']/tabpagelist/element[@class='TTabPage' and @instance='0']/container/text[@name='XminEdit']"
+				searchtimeout="30000ms">
+					/form[@name='GeoOptions']/tabpagelist[@name='TabbedNotebook1']//text[@name='XminEdit']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="10842411-4604-48ab-8f94-1af0b4299ba6"
+				name="YmaxEdit"
+				refimgid="db5d588a-d573-436a-9f35-d3a48de99298"
+				refpath="/form[@name='GeoOptions']/tabpagelist/element[@class='TTabPage' and @instance='0']/container/text[@name='YmaxEdit']"
+				searchtimeout="30000ms">
+					/form[@name='GeoOptions']/tabpagelist[@name='TabbedNotebook1']//text[@name='YmaxEdit']
+				</item>
+				<item
+				addcaps="text,nativewindow,delphielement"
+				capname="text"
+				id="db754ab5-fbb7-4bd8-bb04-52246f3b470c"
+				name="YminEdit"
+				refimgid="7d11df07-f2b9-4077-abd8-13cacbaa96c8"
+				refpath="/form[@name='GeoOptions']/tabpagelist/element[@class='TTabPage' and @instance='0']/container/text[@name='YminEdit']"
+				searchtimeout="30000ms">
+					/form[@name='GeoOptions']/tabpagelist[@name='TabbedNotebook1']//text[@name='YminEdit']
+				</item>
+				<basepath>
+					/form[@name='GeoOptions']/tabpagelist[@name='TabbedNotebook1']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@name='GeoOptions']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKgSURBVDhPbZJPTxNRFMX7JTQCpRRopy0ocQ1G
+E7cmbkwQDYIikoAQEOVPLQUWEt2YsHKhRkx04cbExBg3LiR+AhU1RhBKS5mZN/MKfoDzPHfaEU1c
+vE0753fOufdGGs75pqFbIdrjIdbrId7noWXAQ+s1H8lhH6lRH+lxjfQNjfYpjcyMRmqW//G13vYQ
+aez2TfS8i8YLHpoE0P8fwAQBkwcA6x9AjzYximMXCbhEwBUCBgkYqgKsMQH4yBDQRkB6mr9RnKC4
+NUdAU6824hyIL3torrmfXaogOcIEAUBj5JFC+zQBMyFAoUUA8X5tJHZVzB/p/vz9LxTdPZxZYt9x
+Dw/eOHCdEsZWHKRmPCSzjJ9lUgG0DPgmEF6lc01cUvvYURrfthQ653y4bomvQMgWRghJzvJbVmjO
+KUQSQxUjfRN8K+/2UQzEPsquixP5avfsMxvK3YRjb6NslzH4hIYExAVgDVeMDOvFhwPnjZKC49q4
+/8pBBzuv/Sjg688idine2bWxskp3ziA+R0BqrGIsrsq67qFgV527GPv0ohdE9un8ZaMIi91Hn3pY
+/axw9zXd51zEBJCZqJj0eHVVJ+c1OvPc9U2NY3T+vllg7CKWOUTZeyKrat25NcaP5QUwuWfkSII9
+U5i5pdHBj8X543oRp+4oxnaw/JZTrw1OujcyQcO8i8jR6T0jFyZH0sY9Z3goa+sFfKL4OIeY5Lr6
+HipslzVyL3XQu4kvmidggYDMLCswbvhSfEOPHSSCyFyX7JvOXfc8tC0yNsXiXk9A3YKDSJoAiyK5
+rvDG5VDCvmFs6SzOIo4yej3djwggmdVGDkMEgegvVxlWPOf+GZjEFuf6eYdiG4cFkMhpEzoFj6Jw
+UNJXIgdiukrnupqziA8tOvgN9oe3YaWqRygAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="78a9c7f2-0cb3-4ff7-9f02-cd5398d10bd0"
+		isrooted="True"
+		name="Открытие"
+		refpath="/form[@title='Открытие']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="11db4a33-fd28-462a-ad3a-4c2cca1fa9e3"
+			name="ComboBox1136"
+			refimgid="1d8a2652-88a6-4013-807c-db9d90de381c"
+			refpath="/form[@title='Открытие']/combobox[@controlid='1136']"
+			searchtimeout="30000ms">
+				/form[@title='&#1054;&#1090;&#1082;&#1088;&#1099;&#1090;&#1080;&#1077;']/combobox[@controlid='1136']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="76b11e61-4c78-45e2-b8bb-14c32e090c6d"
+			name="SystemItemNameDisplay"
+			refimgid="018fa813-f0b0-4cf4-920d-742d20ed52bc"
+			refpath="/form[@title='Открытие']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']"
+			searchtimeout="30000ms">
+				/form[@title='&#1054;&#1090;&#1082;&#1088;&#1099;&#1090;&#1080;&#1077;']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='1']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="aa1cc70c-01ef-433a-b11c-db9760ac9df5"
+			name="ButtonОткрыть"
+			refimgid="e31eff85-58a5-45b5-a210-1c2cf628c863"
+			refpath="/form[@title='Открытие']/button[@text='&amp;Открыть']"
+			searchtimeout="30000ms">
+				/form[@title='&#1054;&#1090;&#1082;&#1088;&#1099;&#1090;&#1080;&#1077;']/button[@text='&amp;&#1054;&#1090;&#1082;&#1088;&#1099;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/form[@title='&#1054;&#1090;&#1082;&#1088;&#1099;&#1090;&#1080;&#1077;']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALjSURBVDhPjZPbb0xRGMXnn0DRTufWubQlIcqT
+Rx5owoM0NC2lYqJpXaI6vcx0WlqXuD1IiAehT0QIghAhgsSl1RCXNEF1qtPpOWfvfWbiD1jb2qf1
+7mElc3Lm+631XY6vfJvU5Q0O/DskKpslArskQq0SkX0KVfsVou0K8UMK1Z0uqrtcJFIKsW6Jql6F
+cJ+Er6KBgO0C/sYFQMv/AuQ8oLLR1V5xE4t3SgR388VeApIEtBHQoZA4rFCzAIh7AL77Bwg0u9pz
+9ooFgnsENmZcNJwpovYg/3xAYtMJiT2XBVb3MQ3do1SEgKABBFuUDrSYwvnoK9slnn/6g7HvRWw9
+rbCqU+DhOwuTv2fQdMmZj0+FCAj0CfhCrUqHWgViSYktQ0U8+/gHBVnCVEHh1B2JxgsSP3J5CCeH
+77lpdIzYWNFvAIIAB75IsqjjHNZ2Rn40VkJelDArFF59Eag/yURdCnffzMKxp2HbeXybsrD7qkCI
+8QNpAqJtRb32qIsrT0r4VShi1lF4+Vng7VcL5+5ZyNwo4MPEDB6NFvBjeg6WbePYfQLS3JwBxDqK
+OsZJN15QeD8h8eKTQF2PQopRf+ZydJ3G+QdzWMXYOzjIthGBDecYn4AKA0gcZgvcc5yr2nxCofaI
+izpOO3vTwiidv0zmcfaBg3XHOfkeFhqxd3/GQTnlq+ks6WoWmUNJULXsOX3DwtPxPDK3LLRfd/B4
+3MHwfW6EkCAnX0nniozA8n6bgBQB5sI8KazJSLz+PIOB2xZWZyUSnHbymsLD8SLqL/LgjDsBxn1Z
+v2mhmy2kJC9MImbEHa8fEqhJm8jz+w7Tdc2wQHSAfXvRbSzL2ijLWvDFezjEheuKssAcScSIvYb4
+HPT2/S82ixnbRF9KwBIDqOp1tXEyChs3FpgjMb16hQuRvaF5xYzuudtYTPnCaaXDfa6nEH8HPUkd
+yEhdSfmpin5+sVmhl1NLBxxdRi0ZFHrRoKP/Ami4tkJPcTRQAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="3b36df56-ea40-4f3b-8794-e9b13f17e22e"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem"
+			capname="listitem"
+			id="95879847-5bed-48a7-9f12-953c58262382"
+			name="ФайлыAutoCAD2004DXFAsteriskDxf"
+			refimgid="d3a0802b-cfed-4cb4-a3db-9e0cf026438a"
+			refpath="/list[@controlid='1000']/listitem[@text~'^Файлы\ AutoCAD\ 2004\ DXF\ \(\*']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text~'^&#1060;&#1072;&#1081;&#1083;&#1099;\ AutoCAD\ 2004\ DXF\ \(\*']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="81f1c77d-477b-4eb4-b6db-adf3a0990f21"
+		isrooted="True"
+		name="GEOTECH3D3"
+		refpath="/form[@name='ImportDXFOption']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="radiobutton,nativewindow,delphielement"
+			capname="radiobutton"
+			id="fdd384f0-16a6-4c16-8f63-828266ea9d0c"
+			name="Геодезические"
+			refimgid="172ba3b2-5167-49f0-a108-345ad8b61ab8"
+			refpath="/form[@name='ImportDXFOption']/container[@name='gbKoord']/radiobutton[@name='rbGeod']"
+			searchtimeout="30000ms">
+				/form[@name='ImportDXFOption']/?/?/radiobutton[@name='rbGeod']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="1c88fe62-4297-4852-b077-022eb4dc600f"
+			name="Импорт"
+			refimgid="33838c0c-6461-46a3-8b24-88f9250dee3d"
+			refpath="/form[@name='ImportDXFOption']/button[@name='btnOK']"
+			searchtimeout="30000ms">
+				/form[@name='ImportDXFOption']/button[@name='btnOK']
+			</item>
+			<basepath>
+				/form[@name='ImportDXFOption']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKgSURBVDhPbZJPTxNRFMX7JTQCpRRopy0ocQ1G
+E7cmbkwQDYIikoAQEOVPLQUWEt2YsHKhRkx04cbExBg3LiR+AhU1RhBKS5mZN/MKfoDzPHfaEU1c
+vE0753fOufdGGs75pqFbIdrjIdbrId7noWXAQ+s1H8lhH6lRH+lxjfQNjfYpjcyMRmqW//G13vYQ
+aez2TfS8i8YLHpoE0P8fwAQBkwcA6x9AjzYximMXCbhEwBUCBgkYqgKsMQH4yBDQRkB6mr9RnKC4
+NUdAU6824hyIL3torrmfXaogOcIEAUBj5JFC+zQBMyFAoUUA8X5tJHZVzB/p/vz9LxTdPZxZYt9x
+Dw/eOHCdEsZWHKRmPCSzjJ9lUgG0DPgmEF6lc01cUvvYURrfthQ653y4bomvQMgWRghJzvJbVmjO
+KUQSQxUjfRN8K+/2UQzEPsquixP5avfsMxvK3YRjb6NslzH4hIYExAVgDVeMDOvFhwPnjZKC49q4
+/8pBBzuv/Sjg688idine2bWxskp3ziA+R0BqrGIsrsq67qFgV527GPv0ohdE9un8ZaMIi91Hn3pY
+/axw9zXd51zEBJCZqJj0eHVVJ+c1OvPc9U2NY3T+vllg7CKWOUTZeyKrat25NcaP5QUwuWfkSII9
+U5i5pdHBj8X543oRp+4oxnaw/JZTrw1OujcyQcO8i8jR6T0jFyZH0sY9Z3goa+sFfKL4OIeY5Lr6
+HipslzVyL3XQu4kvmidggYDMLCswbvhSfEOPHSSCyFyX7JvOXfc8tC0yNsXiXk9A3YKDSJoAiyK5
+rvDG5VDCvmFs6SzOIo4yej3djwggmdVGDkMEgegvVxlWPOf+GZjEFuf6eYdiG4cFkMhpEzoFj6Jw
+UNJXIgdiukrnupqziA8tOvgN9oe3YaWqRygAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="a0f198ba-0d50-4dff-af86-fa564e0e277a"
+		isrooted="True"
+		name="GEOTECH3D4"
+		refpath="/form[@name='frmImportDxfShift']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="15188fa3-d2a7-4ef9-b869-50e12c618b5a"
+			name="Продолжить"
+			refimgid="26423480-3e07-430f-b240-bb8127785eb2"
+			refpath="/form[@name='frmImportDxfShift']/button[@name='Button1']"
+			searchtimeout="30000ms">
+				/form[@name='frmImportDxfShift']/button[@name='Button1']
+			</item>
+			<basepath>
+				/form[@name='frmImportDxfShift']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKgSURBVDhPbZJPTxNRFMX7JTQCpRRopy0ocQ1G
+E7cmbkwQDYIikoAQEOVPLQUWEt2YsHKhRkx04cbExBg3LiR+AhU1RhBKS5mZN/MKfoDzPHfaEU1c
+vE0753fOufdGGs75pqFbIdrjIdbrId7noWXAQ+s1H8lhH6lRH+lxjfQNjfYpjcyMRmqW//G13vYQ
+aez2TfS8i8YLHpoE0P8fwAQBkwcA6x9AjzYximMXCbhEwBUCBgkYqgKsMQH4yBDQRkB6mr9RnKC4
+NUdAU6824hyIL3torrmfXaogOcIEAUBj5JFC+zQBMyFAoUUA8X5tJHZVzB/p/vz9LxTdPZxZYt9x
+Dw/eOHCdEsZWHKRmPCSzjJ9lUgG0DPgmEF6lc01cUvvYURrfthQ653y4bomvQMgWRghJzvJbVmjO
+KUQSQxUjfRN8K+/2UQzEPsquixP5avfsMxvK3YRjb6NslzH4hIYExAVgDVeMDOvFhwPnjZKC49q4
+/8pBBzuv/Sjg688idine2bWxskp3ziA+R0BqrGIsrsq67qFgV527GPv0ohdE9un8ZaMIi91Hn3pY
+/axw9zXd51zEBJCZqJj0eHVVJ+c1OvPc9U2NY3T+vllg7CKWOUTZeyKrat25NcaP5QUwuWfkSII9
+U5i5pdHBj8X543oRp+4oxnaw/JZTrw1OujcyQcO8i8jR6T0jFyZH0sY9Z3goa+sFfKL4OIeY5Lr6
+HipslzVyL3XQu4kvmidggYDMLCswbvhSfEOPHSSCyFyX7JvOXfc8tC0yNsXiXk9A3YKDSJoAiyK5
+rvDG5VDCvmFs6SzOIo4yej3djwggmdVGDkMEgegvVxlWPOf+GZjEFuf6eYdiG4cFkMhpEzoFj6Jw
+UNJXIgdiukrnupqziA8tOvgN9oe3YaWqRygAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
